@@ -1,3 +1,5 @@
+# Esse arquivo não deve ser utilizado, utilize o arquivo 'main', para rodar o programa
+
 from typing import Union
 from fila_normal import FilaNormal
 from fila_prioritaria import FilaPrioritaria

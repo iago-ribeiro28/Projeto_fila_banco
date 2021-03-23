@@ -1,3 +1,5 @@
+# Esse arquivo não deve ser utilizado, utilize o arquivo 'main', para rodar o programa
+
 from fabrica_fila import FabricaFila
 
 

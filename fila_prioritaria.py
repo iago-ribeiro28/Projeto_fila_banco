@@ -1,3 +1,5 @@
+# Esse arquivo não deve ser utilizado, utilize o arquivo 'main', para rodar o programa
+
 from fila_base import FilaBase
 from constantes import CODIGO_PRIORITARIO
 

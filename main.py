@@ -3,8 +3,6 @@
 #
 # Se o cliente for pegar a senha, o programa ficará rodando até que o funcionário
 # vá encerrar o programa escrevendo "encerrar_codigo"
-#
-
 
 import pegar_senha
 import caixa
@@ -21,9 +19,9 @@ def main():
         while escolha < 1 or escolha < 3:
 
             print("""
-1) usar para o cliente pegar a senha
-2) caixa usar para chamar o cliente
-3) encerrar programa""")
+1) Caixa usar para chamar o cliente;
+2) Usar para o cliente pegar a senha;
+3) Encerrar programa.""")
 
             escolha = int(input('Escolha uma opção: '))
 
