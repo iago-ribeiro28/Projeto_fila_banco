@@ -106,7 +106,3 @@ def chamar_cliente_prioritario(numero_caixa, fabrica_prioritario):
 
 def chamar_cliente_normal(numero_caixa, fabrica_prioritario):
     return {fabrica_prioritario.chama_cliente(numero_caixa)}
-
-
-if __name__ == '__main__':
-    caixa()

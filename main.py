@@ -1,3 +1,11 @@
+# Para iniciar o programa, o funcionário deverá escolher se aquele terminal
+# será usado para o cliente pegar a senha, ou para o caixa chamar os clientes,
+#
+# Se o cliente for pegar a senha, o programa ficará rodando até que o funcionário
+# vá encerrar o programa escrevendo "encerrar_codigo"
+#
+
+
 import pegar_senha
 import caixa
 

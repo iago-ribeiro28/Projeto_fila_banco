@@ -5,7 +5,6 @@ from constantes import TAMANHO_PADRAO_MAXIMO, TAMANHO_PADRAO_MINIMO
 
 class FilaBase(metaclass=abc.ABCMeta):
     codigo: int = 0
-    clientes_atendidos: list = []
     senha_atual: str = ''
 
     @abc.abstractmethod
