@@ -51,7 +51,7 @@ Chamar qual fila?"""))
                     print(fabrica_normal.chama_cliente(numero_caixa))
 
                 if contador_normal != 0:
-                    proximo = input('Chamar proximo?').strip().upper()
+                    proximo = input('Chamar proximo? [S/N]').strip().upper()
 
                     if proximo == 'N':
                         break
